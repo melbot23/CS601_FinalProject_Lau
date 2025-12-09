@@ -1,0 +1,100 @@
+/* Style guide for Writing page */
+
+/* Published Works */
+
+.external-links {
+    margin: 3rem;
+}
+
+.external-links header {
+    font-weight: bold;
+}
+
+.external-links ul {
+    list-style-type: none;
+    padding: 1rem;
+}
+
+.external-links ul li {
+    padding: 1rem;
+}
+
+.external-links ul li a {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+
+/* Featured Collection */
+
+.featured {
+    background-color: #3E4A40;
+}
+
+.poetry-header {
+    text-align: center;
+    color: white;
+    padding: 1rem;
+}
+
+.poetry-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    padding: 1rem;
+}
+
+.section-title {
+    color:white;
+}
+
+.subtitle {
+    color: white;
+}
+
+.poetry-container {
+    padding: 2rem;
+}
+
+.poetry-container>* {
+    background-color: #fff8e7;
+    justify-items: center;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.poem-title {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 1rem;
+}
+
+.image-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.image-wrapper img {
+    width: 300px;
+    height: 200px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.poem-content {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12pt;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* On screens that are 1000px wide or less, change content to be 1 column */
+
+@media only screen and (max-width: 1000px) {
+    .poetry-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        margin: 0;
+        gap: 2rem;
+    }
+}

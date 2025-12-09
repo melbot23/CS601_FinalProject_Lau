@@ -1,0 +1,12 @@
+[
+  { "id": "cow", "src": "/assets/cow.jpeg", "caption": "Cow, Luxembourg City" },
+  { "id": "waterfall", "src": "/assets/waterfall.jpeg", "caption": "Waterfall, Luxembourg City" },
+  { "id": "rainbow", "src": "/assets/rainbow.jpg", "caption": "Rainbow, Manoa" },
+  { "id": "stone-steps", "src": "/assets/stone-steps.jpg", "caption": "Stone Steps, Berlin" },
+  { "id": "diamond-head", "src": "/assets/diamond-head.jpg", "caption": "Diamond Head, Waikiki" },
+  { "id": "wedding", "src": "/assets/wedding.jpeg", "caption": "Wendy Whiteley's Secret Garden, Sydney" },
+  { "id": "sydney-beach", "src": "/assets/sydney1.jpeg", "caption": "Clovelly Beach, Sydney" },
+  { "id": "sydney-cliff", "src": "/assets/sydney2.jpeg", "caption": "Clovelly Beach, Sydney" },
+  { "id": "rink", "src": "/assets/rink.jpg", "caption": "Public Garden, Boston" },
+  { "id": "boston", "src": "/assets/boston.jpg", "caption": "City View, Boston" }
+]

@@ -1,0 +1,83 @@
+/* Style guide for Layout of every page */
+
+.brand-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+    margin-top: 30px;
+}
+
+h1 {
+    margin: 0px;
+}
+
+h1 a:focus {
+    text-shadow: 2px 2px 5px white;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+/* Navigation */
+
+.page-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    background-color: #556b2f;
+}
+
+.page-nav a {
+    overflow: hidden;
+    font-size: large;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.page-nav a:hover {
+    background-color: #3b4b21;
+}
+
+.page-nav a:focus {
+    background-color: black;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #ecebbd;
+    width: 100%;
+    margin-top: 50px;
+    padding: 30px;
+    gap: 1rem;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: left;
+    gap: 1rem;
+    font-size: small;
+}
+
+.footer-nav a {
+    color: black;
+    text-decoration: none;
+}

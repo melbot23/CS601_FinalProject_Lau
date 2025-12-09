@@ -1,0 +1,39 @@
+/* Style guide for Contact page */
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+    font-size: large;
+}
+
+.success-message {
+    text-align: center;
+    color: #3b4b21;
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 4rem;
+}
+
+.form-input {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 2rem;
+}
+
+.form-label {
+    padding: 2rem;
+
+}
+
+.error-message {
+    display: block;
+    color: darkred;
+    font-size: small;
+    margin-left: 2rem;
+}
+
+.button {
+    margin-top: 2rem;
+    margin-left: 2rem;
+}

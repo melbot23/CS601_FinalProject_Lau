@@ -1,0 +1,27 @@
+/* Style guide for About page */
+.about-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    margin: 10vh;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 200%;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* On screens that are 1000px wide or less, change content to be 1 column */
+
+@media only screen and (max-width: 1000px) {
+    .about-main {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 2rem;
+    }
+}
