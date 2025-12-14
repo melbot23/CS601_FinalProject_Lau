@@ -13,15 +13,15 @@ export default function Writing() {
             <div className="external-links">
                 <ul>
                     <li><header>Poetry</header></li>
-                    <li><a href="https://ghostcitypress.com/poetry-76/2021/9/12/melanie-lau" target="_blank"><i>room with no direct sunlight</i>, Ghost City Press</a></li>
-                    <li><a href="https://bluemarblereview.com/ode-to-anxiety/" target="_blank"><i>Ode to Anxiety</i>, Blue Marble Review</a></li>
-                    <li><a href="https://issuu.com/lorasduhawks/docs/catfishcreek2020" target="_blank"><i>The Simple Life of Stardust</i>, Catfish Creek</a></li>
+                    <li><a href="https://ghostcitypress.com/poetry-76/2021/9/12/melanie-lau" target="_blank" rel="noopener noreferrer"><i>room with no direct sunlight</i>, Ghost City Press</a></li>
+                    <li><a href="https://bluemarblereview.com/ode-to-anxiety/" target="_blank" rel="noopener noreferrer"><i>Ode to Anxiety</i>, Blue Marble Review</a></li>
+                    <li><a href="https://issuu.com/lorasduhawks/docs/catfishcreek2020" target="_blank" rel="noopener noreferrer"><i>The Simple Life of Stardust</i>, Catfish Creek</a></li>
                 </ul>
                 <ul>
                     <li><header>Fiction</header></li>
-                    <li><a href="https://issuu.com/storkstory/docs/stork_magazine_issue_30_spring_2021_" target="_blank"><i>Impurity</i>, Stork Magazine</a></li>
-                    <li><a href="https://www.flashfictiononline.com/article/time-travel/" target="_blank"><i>Time Travel</i>, Flash Fiction Online</a></li>
-                    <li><a href="https://issuu.com/lorasduhawks/docs/catfishcreek2020" target="_blank"><i>Waipo</i>, Catfish Creek</a></li>
+                    <li><a href="https://issuu.com/storkstory/docs/stork_magazine_issue_30_spring_2021_" target="_blank" rel="noopener noreferrer"><i>Impurity</i>, Stork Magazine</a></li>
+                    <li><a href="https://www.flashfictiononline.com/article/time-travel/" target="_blank" rel="noopener noreferrer"><i>Time Travel</i>, Flash Fiction Online</a></li>
+                    <li><a href="https://issuu.com/lorasduhawks/docs/catfishcreek2020" target="_blank" rel="noopener noreferrer"><i>Waipo</i>, Catfish Creek</a></li>
                 </ul>
             </div>
 
@@ -36,7 +36,7 @@ export default function Writing() {
                         <figure className="image-wrapper">
                             <img
                                 src="https://images.unsplash.com/photo-1645668009378-28f0b11be63e?q=80&w=1098&auto=format&fit=crop&ixlib=rb-4.1.0"
-                                alt="Image of forest"
+                                alt="Forest"
                             />
                         </figure>
                         <header className="poem-title">reach</header>
@@ -75,7 +75,7 @@ Hold me the same.`}
                         <figure className="image-wrapper">
                             <img
                                 src="https://images.unsplash.com/photo-1605429201125-37e867327609?q=80&w=1176&auto=format&fit=crop&ixlib=rb-4.1.0"
-                                alt="Image of scrabble tiles falling"
+                                alt="Scrabble tiles falling"
                             />
                         </figure>
                         <header className="poem-title">wonders</header>
@@ -113,7 +113,7 @@ We skip across the highway, big metal stone, us.`}
                         <figure className="image-wrapper">
                             <img
                                 src="https://images.unsplash.com/photo-1651984910246-68529b9d3704?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0"
-                                alt="Image of cat paws"
+                                alt="Cat paws"
                             />
                         </figure>
                         <header className="poem-title">trinkets</header>
@@ -151,7 +151,7 @@ him: what a kind, smooth rock.`}
                         <figure className="image-wrapper">
                             <img
                                 src="https://images.unsplash.com/photo-1634418074362-1bea22613b18?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0"
-                                alt="Image of highway lamppost"
+                                alt="Highway lamppost"
                             />
                         </figure>
                         <header className="poem-title">highway</header>
